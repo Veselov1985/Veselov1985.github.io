@@ -632,6 +632,7 @@ var MobileService = /** @class */ (function () {
         var panelClass = state ? 'snack__success' : 'snack__error';
         return this.snackBar.open(title, 'Ok', {
             panelClass: panelClass,
+            duration: 5000,
         });
     };
     MobileService = __decorate([
